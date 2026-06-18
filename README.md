@@ -219,7 +219,7 @@ startMolpay(paymentDetails, (result: any) => {
 
 ## Support
 
-Submit issue to this repository or email to our support-sa@fiuu.com
+Submit issue to this repository or email to our support@fiuu.com
 
 Merchant Technical Support / Customer Care : support@fiuu.com<br>
 Sales/Reseller Enquiry : sales@fiuu.com<br>
