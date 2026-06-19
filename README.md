@@ -1,5 +1,5 @@
 <!--
- # license: Copyright © 2020 Razer Merchant Services. All Rights Reserved. 
+ # license: Copyright © 2020 Fiuu. All Rights Reserved. 
  -->
 
 <img src="https://user-images.githubusercontent.com/38641542/74424311-a9d64000-4e8c-11ea-8d80-d811cfe66972.jpg">
@@ -56,7 +56,7 @@ var paymentDetails = {
     'mp_country' : 'MY',  
     
     // Optional String.
-    'mp_channel' : '', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+    'mp_channel' : '', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Examples/blob/master/channel-list.md.
     'mp_bill_description' : '',
     'mp_bill_name' : '',
     'mp_bill_email' : '',
@@ -65,7 +65,7 @@ var paymentDetails = {
     'mp_editing_enabled' : false, // Option to allow billing information editing.
     
     // Optional, but required payment values. User input will be required when values not passed.
-    'mp_channel' : 'multi', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/channel_list.tsv.
+    'mp_channel' : 'multi', // Use 'multi' for all available channels option. For individual channel seletion, please refer to https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Examples/blob/master/channel-list.md.
     'mp_bill_description' : 'billdesc',
     'mp_bill_name' : 'billname',
     'mp_bill_email' : 'email@domain.com',
@@ -92,7 +92,7 @@ var paymentDetails = {
     // Optional, use 'Receipt' for Cash channels, and 'Status' for transaction status query.
     'mp_request_type': '',
 
-    // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/RazerMS/molpay-mobile-xdk-examples/blob/master/custom.css.
+    // Optional, use this to customize the UI theme for the payment info screen, the original XDK custom.css file can be obtained at https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Examples/blob/master/custom.css.
     'mp_custom_css_url': '',
 
     // Optional, set the token id to nominate a preferred token as the default selection, set "new" to allow new card only.
@@ -101,7 +101,7 @@ var paymentDetails = {
     // Optional, credit card transaction type, set "AUTH" to authorize the transaction.
     'mp_tcctype': '',
 
-    // Optional, required valid credit card channel, set true to process this transaction through the recurring api, please refer the Razer Merchant Services Recurring API pdf. 
+    // Optional, required valid credit card channel, set true to process this transaction through the recurring api, please refer the Fiuu Recurring API pdf. 
     'mp_is_recurring': false,
 
     // Optional, show nominated channels.
@@ -219,7 +219,7 @@ startMolpay(paymentDetails, (result: any) => {
 
 ## Support
 
-Submit issue to this repository or email to our support-sa@fiuu.com
+Submit issue to this repository or email to our support@fiuu.com
 
 Merchant Technical Support / Customer Care : support@fiuu.com<br>
 Sales/Reseller Enquiry : sales@fiuu.com<br>
